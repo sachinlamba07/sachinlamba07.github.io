@@ -1,0 +1,59 @@
+[
+    
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/64/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Hibernet",
+        "icon": "https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg"
+    },
+    
+    {
+        "name": "Maven",
+        "icon": "https://cdn.icon-icons.com/icons2/2107/PNG/64/file_type_maven_icon_130397.png"
+    },
+    {
+        "name": "Spring",
+        "icon": "https://img.icons8.com/?size=64&id=90519&format=png"
+    }, 
+    {
+        "name": "Spring Boot",
+        "icon": "https://img.icons8.com/officel/64/000000/spring-logo.png"
+    }, 
+
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/64/000000/mysql-logo.png"
+    },
+ 
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/64/ffffff/github.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/64/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/64/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/64/000000/javascript--v1.png"
+    },
+
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/64/000000/bootstrap.png"
+    },
+    
+    {
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/64/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+    }
+    
+    
+       
+]

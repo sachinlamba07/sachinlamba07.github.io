@@ -141,14 +141,14 @@ header .navbar ul li a:hover {
 /* navbar ends */
 
 /* hamburger icon starts*/
-#nav-menu {
+#nav-menus {
   font-size: 3rem;
   cursor: pointer;
   color: rgb(24, 2, 63);
   display: none;
 }
 @media (max-width: 768px) {
-  #nav-menu {
+  #nav-menus {
     display: block;
   }
   header .navbar {

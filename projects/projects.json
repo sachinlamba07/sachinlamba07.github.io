@@ -13,7 +13,7 @@
     "name": "",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "",
+    "category": "JAVA",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/sppu-prep-android"
@@ -23,7 +23,7 @@
     "name": "NewsBox Android",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "",
+    "category": "JAVA",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/newsbox-android"
@@ -33,7 +33,7 @@
     "name": "Weatherly Android",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "",
+    "category": "JAVA",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/weatherly-android"

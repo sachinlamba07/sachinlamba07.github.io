@@ -158,6 +158,7 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p class="project-description">${project.desc}</p>
+          <p class="project-tech-stack"> <b>${project.category}</b></p>
           <div class="btns">
             <a href="${project.links.view}" class="project-deployed-link btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="${project.links.code}" class="project-github-link btn" target="_blank">Code <i class="fas fa-code"></i></a>

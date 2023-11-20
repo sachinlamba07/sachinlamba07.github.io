@@ -42,7 +42,7 @@
   },
   {
     "name": "LadyCare",
-    "desc": "This LadyCare website is implemented using HTML, CSS, and JavaScript. The goal of this project is to demonstrate basic e-commerce functionalities such as adding items to the cart, making a purchase, filtering products, and searching .",
+    "desc": "LadyCare website uses HTML, CSS, and JavaScript to showcase fundamental e-commerce features like cart management, purchasing, product filtering, and searchs.",
     "image": "https://github.com/sachinlamba07/images/blob/main/lc.jpg?raw=true",
     "category": "HTML | CSS | JavaScript",
     "links": {

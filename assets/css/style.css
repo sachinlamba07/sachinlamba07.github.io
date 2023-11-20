@@ -790,7 +790,7 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: flex;

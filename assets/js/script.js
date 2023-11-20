@@ -37,69 +37,17 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
 
-    // $("#contact-form").submit(function (event) {
-    //     //event.preventDefault(); // Prevent default form submission
-        
-    //     emailjs.init("user_TfS6dTnvyloGA4UO_");
-        
-    //     var formData = new FormData(event.target); // Get form data
-        
-    //     emailjs.sendForm('service_ojp325e', 'template_x0wu6hj', formData)
-    //         .then(function(response) {
-    //             alert('SUCCESS!', response.status, response.text);
-    //         }, function(error) {
-    //             alert('FAILED...', error);
-    //         });
-    // });
-    
-
-
-
-
-
-
-
-
-
-    // $("#contact-form").submit(function (event) {
-    //     emailjs.init("user_TfS6dTnvyloGA4UO_");
-    
-    //     emailjs.sendForm('service_ojp325e', 'template_x0wu6hj', '#contact-form')
-    // .then(function(response) {
-    //    alert('SUCCESS!', response.status, response.text);
-    // }, function(error) {
-    //    alert('FAILED...', error);
-    // });
-    //   //  event.preventDefault();
-    // });
-    
-
-
-    // var data = {
-    //     service_id: 'service_ojp325e',
-    //     template_id: 'template_x0wu6hj',
-    //     user_id: 'TfS6dTnvyloGA4UO_',
-    //     template_params: {
-    //         'username': document.getElementsById("name").innerHTML,
-    //         'g-recaptcha-response': '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
-    //     }
-    // };
-     
-    // $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
-    //     type: 'POST',
-    //     data: JSON.stringify(data),
-    //     contentType: 'application/json'
-    // }).done(function() {
-    //     alert('Your mail is sent!');
-    // }).fail(function(error) {
-    //     alert('Oops... ' + JSON.stringify(error));
-    // });
-
-  //  <!-- emailjs to mail contact form data -->
 
 });
+
+
+//download Resume
+
+function resumeDownload(){
+    console.log("fhdj");
+    window.open("https://drive.google.com/file/d/1PaHL-UCzoOraAvNKVEeM8koC3pAIjPc6/view?usp=sharing",`_blank`)
+  }
 
 document.addEventListener('visibilitychange',
     function () {
@@ -157,8 +105,8 @@ function showProjects(projects) {
         <h3 class="project-title">${project.name}</h3>
         </div>
         <div class="desc">
-          <p class="project-description">${project.desc}</p>
-          <p class="project-tech-stack">JAVA</p>
+          <p class="project-description"><b>${project.desc}</b></p>
+          <p class="project-tech-stack">${project.category}</p>
           <div class="btns">
             <a href="${project.links.view}" class="project-deployed-link btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="${project.links.code}" class="project-github-link btn" target="_blank">Code <i class="fas fa-code"></i></a>
@@ -197,6 +145,54 @@ fetchData().then(data => {
 fetchData("projects").then(data => {
     showProjects(data);
 });
+
+
+//  Send Email from contact form
+$('#contact-form').submit(function (e) {
+    e.preventDefault(); // Prevent the default form submission behavior
+
+    // Call your sendMail function
+    sendMail();
+});
+function sendMail(){
+
+ var parms={
+    name : document.getElementById("nameCon").value,
+    email : document.getElementById("emailCon").value,
+    mobile : document.getElementById("phoneCon").value,
+    message : document.getElementById("messageCon").value,
+ };
+console.log("hello")
+ const serviceid="service_sr1zxdh";
+ const templateid="template_xe6bufn";
+
+ emailjs
+ .send(serviceid,templateid,parms)
+ .then((res) => {
+    document.getElementById("nameCon").value="";
+    document.getElementById("emailCon").value="";
+    document.getElementById("phoneCon").value="";
+    document.getElementById("messageCon").value="";
+
+    console.log(res);
+
+    alert("Your Message Sent Successfully");
+ })
+ .catch((err) => {
+    console.log(err);
+    alert("Error occured please try again later");
+ } )
+
+}
+
+
+
+
+
+
+
+
+
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -276,9 +272,9 @@ srtop.reveal('.education .box', { interval: 200 });
 srtop.reveal('.projects .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline', { delay: 200 });
+srtop.reveal('.experience .timeline .container', { interval: 200 });
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+srtop.reveal('.contact .container', { delay: 100 });
+srtop.reveal('.contact .container .form-group', { delay: 100 });

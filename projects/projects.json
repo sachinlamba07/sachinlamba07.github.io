@@ -1,42 +1,53 @@
 [
   {
+    "name": "ClientFusion-CRM",
+    "desc": "CRM System! This console-based software solution is designed to streamline customer interactions and boost overall customer satisfaction.",
+    "image": "https://github.com/sachinlamba07/images/blob/main/fotor-ai-20231117144839%20-%20Copy.jpg?raw=true",
+    "category": "Java | Maven | Hibernet(ORM) | MySQL",
+    "links": {
+      "view": "https://github.com/sachinlamba07/grumpy-interest-7917",
+      "code": "https://github.com/sachinlamba07/grumpy-interest-7917"
+    }
+  },
+  {
     "name": "RideCar",
     "desc": "Developed a console project in Core Java that simulates a ride car system, providing functionalities for admin, passenger, and driver roles.",
-    "image": "https://raw.githubusercontent.com/sachinlamba07/images/main/cab.jpg",
-    "category": "JAVA",
+    "image": "https://github.com/sachinlamba07/images/blob/main/Create%20a%20visual%200%20(1).png?raw=true",
+    "category": "JAVA | Serialization",
     "links": {
-      "view": "https://github.com/sachinlamba07/grumpy-interest-7917",
-      "code": "https://github.com/sachinlamba07/grumpy-interest-7917"
+      "view": "https://github.com/sachinlamba07/RideCar",
+      "code": "https://github.com/sachinlamba07/RideCar"
+    }
+  },
+  
+  {
+    "name": "Retax-CRM",
+    "desc": "Welcome to Retax-CRM , is a software tool that assists businesses in managing and improving customer relationships and interactions. ",
+    "image": "https://github.com/sachinlamba07/images/blob/main/crm1.jpg?raw=true",
+    "category": "HTML | CSS | JS | RestAPI",
+    "links": {
+      "view": "https://jocular-mooncake-2f4da0.netlify.app/",
+      "code": "https://github.com/sachinlamba07/Retex-CRM"
     }
   },
   {
-    "name": "Hello",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "JAVA",
+    "name": "Flickster",
+    "desc": "Flickster is a dynamic web project that aims to replicate the key features and user experience of the Zee5 online streaming platform. ",
+    "image": "https://github.com/sachinlamba07/images/blob/main/image.png?raw=true",
+    "category": "HTML | CSS | JavaScript",
     "links": {
-      "view": "https://github.com/sachinlamba07/grumpy-interest-7917",
-      "code": "https://github.com/sachinlamba07/grumpy-interest-7917"
+      "view": "https://incandescent-flan-b00156.netlify.app/",
+      "code": "https://github.com/sachinlamba07/lyrical-toothbrush-5471"
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "JAVA",
+    "name": "LadyCare",
+    "desc": "This LadyCare website is implemented using HTML, CSS, and JavaScript. The goal of this project is to demonstrate basic e-commerce functionalities such as adding items to the cart, making a purchase, filtering products, and searching .",
+    "image": "https://github.com/sachinlamba07/images/blob/main/lc.jpg?raw=true",
+    "category": "HTML | CSS | JavaScript",
     "links": {
-      "view": "https://github.com/sachinlamba07/grumpy-interest-7917",
-      "code": "https://github.com/sachinlamba07/grumpy-interest-7917"
+      "view": "https://65571bf1202dd96d3bf18940--resilient-zabaione-583a36.netlify.app/",
+      "code": "https://github.com/sachinlamba07/LadyCare"
     }
-  },
-  {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/A_still_of_Red_Fort%2C_during_the_62nd_Independence_Day_celebrations%2C_in_Delhi_on_August_15%2C_2008.jpg",
-    "category": "JAVA",
-    "links": {
-      "view": "https://github.com/sachinlamba07/grumpy-interest-7917",
-      "code": "https://github.com/sachinlamba07/grumpy-interest-7917"
-    }
-  } 
+  }  
 ]

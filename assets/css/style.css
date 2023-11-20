@@ -40,18 +40,28 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 /* gitHub streak stats  */
-
+.services {
+  /* background: #010124; */
+  background: linear-gradient(to bottom, #000031, #00002c);
+}
+.services h2 {
+  color: #fff;
+  padding: 1rem;
+}
+.services .heading span {
+  color: rgb(255, 230, 0);
+}
 
 .services .serv-content{
   display: flex;
-  align-items: center;
+  align-items :self-end;
   justify-content: space-between;
 }
 
 
 .services .serv-content .card-git{
   width: calc(33% - 20px);
-  background: #222;
+  background: #000;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
@@ -60,7 +70,7 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 10px;
 }
 .services .serv-content .card-git:hover{
-  background: #2b3dda;
+  background: #da622b;
 }
 .services .serv-content .card-git .box{
   transition: all 0.3s ease;
@@ -70,7 +80,7 @@ html::-webkit-scrollbar-thumb {
 }
 .services .serv-content .card-git{
   font-size: 50px;
-  color: #2b3dda;
+  color: #fff;
   transition: color 0.3s ease;
   margin-right: 30px;
   margin-left: 20px;
@@ -78,7 +88,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .services .serv-content .card-git:hover i{
-  color: #fff;
+  color: #420177;
   
 }
 .services .serv-content .card-git .text{
@@ -89,7 +99,7 @@ html::-webkit-scrollbar-thumb {
 
 .services .serv-content .card-git{
  /* width: calc(33% - 20px);*/
-  background: #222;
+  background: linear-gradient(to bottom, #fff, #fff);
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
@@ -97,7 +107,7 @@ html::-webkit-scrollbar-thumb {
   transition: all 0.3s ease;
 }
 .services .serv-content .card-git:hover{
-  background: #2b3dda;
+  background: #420177;
 }
 .services .serv-content .card-git .box{
   transition: all 0.3s ease;
@@ -107,7 +117,7 @@ html::-webkit-scrollbar-thumb {
 }
 .services .serv-content .card-git i{
   font-size: 50px;
-  color: #2b3dda;
+  color: #fff;
   transition: color 0.3s ease;
   margin-right: 30px;
   margin-left: 20px;
@@ -294,6 +304,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image {
+  
   flex: 1 1 40rem;
   z-index: 1;
 }
@@ -453,7 +464,7 @@ header .navbar ul li a:hover {
   margin: 4rem;
   width: 30rem;
   height: auto;
-  border-radius: 5%;
+  border-radius: 50%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   
   transition: 0.3s;
@@ -573,7 +584,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -606,7 +617,14 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 
-
+@media screen and (max-width: 900px) {
+  .skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+}
 
 
 /* skills media queries starts*/
@@ -751,27 +769,28 @@ header .navbar ul li a:hover {
 .projects .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2.5rem;
   margin: 2rem;
 }
 .projects .box-container .box {
-  flex: 1 1 30rem;
+  flex: 1 1 35rem;
+ /* flex: 1 1 calc(50% - 0.75rem);*/
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
-  overflow: hidden;
-  height: 30rem;
+  overflow:hidden;
+  height: 50rem;
 }
 .projects .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit :unset;
 }
 .projects .box-container .box .content {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 85%;
+  top: 50%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -792,7 +811,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
 }
 .projects .box-container .box:hover .content {
-  top: 15%;
+ /* top: 25%;*/
 }
 .projects .desc {
   margin: 2rem;
@@ -1167,6 +1186,96 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+@media (max-width: 900px) {
+  .services .serv-content{
+    display: block;
+  width: 100%;
+  }
+  html {
+    font-size: 55%;
+  }
+  #content{
+    margin-top: 10rem;
+  }
+  body {
+    padding-right: 0;
+  }
+  section {
+    padding: 2rem;
+  }
+
+  .services .serv-content .card-git{
+  
+    
+  }
+  .services .serv-content .card-git:hover{
+    background: #000000;
+  }
+  .services .serv-content .card-git .box{
+    transition: all 0.3s ease;
+  }
+  .services .serv-content .card-git:hover .box{
+    transform: scale(1.05);
+  }
+  .services .serv-content .card-git{
+    width: calc(93% - 20px);
+    font-size: 50px;
+    color: #f8f8f8;
+    transition: color 0.3s ease;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .services .serv-content .card-git:hover i{
+    color: #fff;
+    
+  }
+  .services .serv-content .card-git .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px 0 0px 0;
+  }
+  
+  .services .serv-content .card-git{
+    
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .services .serv-content .card-git:hover{
+    background: #ffffff;
+  }
+  .services .serv-content .card-git .box{
+    transition: all 0.3s ease;
+  }
+  .services .serv-content .card-git:hover .box{
+    transform: scale(1.05);
+  }
+  .services .serv-content .card-git i{
+    font-size: 50px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .services .serv-content .card-git:hover i{
+    color: #fff;
+    
+  }
+  .services .serv-content .card-git .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px 0 0px 0;
+  }
+
+
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1326,7 +1435,7 @@ form .button-area {
     
   }
   .services .serv-content .card-git:hover{
-    background: #2b3dda;
+    background: #000000;
   }
   .services .serv-content .card-git .box{
     transition: all 0.3s ease;
@@ -1337,7 +1446,7 @@ form .button-area {
   .services .serv-content .card-git{
     width: calc(93% - 20px);
     font-size: 50px;
-    color: #2b3dda;
+    color: #f8f8f8;
     transition: color 0.3s ease;
     margin-right: 0;
     margin-left: 0px;
@@ -1364,7 +1473,7 @@ form .button-area {
     transition: all 0.3s ease;
   }
   .services .serv-content .card-git:hover{
-    background: #2b3dda;
+    background: #ffffff;
   }
   .services .serv-content .card-git .box{
     transition: all 0.3s ease;
@@ -1374,7 +1483,7 @@ form .button-area {
   }
   .services .serv-content .card-git i{
     font-size: 50px;
-    color: #2b3dda;
+    color: #ffffff;
     transition: color 0.3s ease;
     margin-right: 0px;
     margin-left: 0px;

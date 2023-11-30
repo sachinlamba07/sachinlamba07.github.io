@@ -31,16 +31,6 @@
     }
   },
   {
-    "name": "Flickster",
-    "desc": "Flickster is a dynamic web project that aims to replicate the key features and user experience of the Zee5 online streaming platform. ",
-    "image": "https://github.com/sachinlamba07/images/blob/main/image.png?raw=true",
-    "category": "HTML | CSS | JavaScript",
-    "links": {
-      "view": "https://incandescent-flan-b00156.netlify.app/",
-      "code": "https://github.com/sachinlamba07/lyrical-toothbrush-5471"
-    }
-  },
-  {
     "name": "LadyCare",
     "desc": "LadyCare website uses HTML, CSS, and JavaScript to showcase fundamental e-commerce features like cart management, purchasing, product filtering, and searchs.",
     "image": "https://github.com/sachinlamba07/images/blob/main/lc.jpg?raw=true",

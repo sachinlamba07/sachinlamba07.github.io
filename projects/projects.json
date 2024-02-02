@@ -1,4 +1,16 @@
 [
+
+  {
+    "name": "BookMyBus",
+    "desc": "Book My Bus is a robust and dynamic bus reservation platform that aims to redefine the booking experience by offering a comprehensive suite of features.",
+    "image": "https://github.com/sachinlamba07/images/blob/main/bus3.jpg?raw=true",
+    "category": "Java | Spring Boot | RestAPI | MySQL",
+    "links": {
+      "view": "https://github.com/sachinlamba07/BookMyBus",
+      "code": "https://github.com/sachinlamba07/BookMyBus"
+    }
+  },
+
   {
     "name": "ClientFusion-CRM",
     "desc": "CRM System! This console-based software solution is designed to streamline customer interactions and boost overall customer satisfaction.",
@@ -28,6 +40,16 @@
     "links": {
       "view": "https://jocular-mooncake-2f4da0.netlify.app/",
       "code": "https://github.com/sachinlamba07/Retex-CRM"
+    }
+  },
+  {
+    "name": "Flickster",
+    "desc": "Flickster is a dynamic web project that aims to replicate the key features and user experience of the Zee5 online streaming platform. ",
+    "image": "https://github.com/sachinlamba07/images/blob/main/image.png?raw=true",
+    "category": "HTML | CSS | JavaScript",
+    "links": {
+      "view": "https://incandescent-flan-b00156.netlify.app/",
+      "code": "https://github.com/sachinlamba07/lyrical-toothbrush-5471"
     }
   },
   {
